@@ -71,7 +71,6 @@ function formatTimeFull(ts: string): string {
       hour: "2-digit",
       minute: "2-digit",
       second: "2-digit",
-      // @ts-expect-error fractionalSecondDigits is valid in modern engines
       fractionalSecondDigits: 3,
     });
   } catch {
